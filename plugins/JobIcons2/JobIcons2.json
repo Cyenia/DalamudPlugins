@@ -1,0 +1,16 @@
+{
+  "Author": "Cyenia",
+  "Name": "JobIcons2",
+  "InternalName": "JobIcons2",
+  "AssemblyVersion": "6.5.4.0",
+  "Description": "Names are dumb, use icons instead.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Cyeniia/JobIcons2",
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Names are dumb, use icons instead.",
+  "AcceptsFeedback": true
+}
