@@ -21,10 +21,14 @@ jobs:
         run: python build_script.py "${{github.repository}}" "${{github.ref_name}}" >> $GITHUB_OUTPUT
 
       - name: Commit pluginmaster.json
-        if: ${{steps.build-script.outputs.new-files}}
         run: |
-          git config --global user.name "Actions User"
-          git config --global user.email "actions@github.com"
-          git add -A
-          git commit -m "[CI] Updating pluginmaster.json" || true
-          git push origin master
+          if [ ${{steps.build-script.outputs.new-files}} -eq 'True' ]
+          then
+            git config --global user.name "Actions User"
+            git config --global user.email "actions@github.com"
+            git add -A
+            git commit -m "[CI] Updating pluginmaster.json" || true
+            git push origin master
+          else
+            echo "Nothing to do"
+          fi
