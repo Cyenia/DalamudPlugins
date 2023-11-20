@@ -70,4 +70,4 @@ if not filecmp.cmp(repo_file, new_file):
 
 os.remove(new_file)
 
-print(f"new-files={updated}")
+print(f"new-files={'true' if updated else 'false'}")
