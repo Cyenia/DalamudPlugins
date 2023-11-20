@@ -15,10 +15,34 @@
         "Punchline": "Run multiple macros one after the another. Even in a loop.",
         "Changelog": "API9 update",
         "AcceptsFeedback": true,
-        "LastUpdate": 1700504526,
+        "LastUpdate": 1700504849,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/MacroChaining/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/MacroChaining/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/MacroChaining/latest.zip"
+    },
+    {
+        "Author": "Cyenia",
+        "Name": "Spiritbond Watcher",
+        "InternalName": "SpiritbondWatcher",
+        "AssemblyVersion": "1.1.3.0",
+        "Description": "Tells you when to extract materia when you're actually paying attention.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/Cyeniia/SpiritbondWatcher",
+        "CategoryTags": [
+            "Utility"
+        ],
+        "DalamudApiLevel": 9,
+        "LoadRequiredState": 0,
+        "LoadSync": false,
+        "CanUnloadAsync": false,
+        "LoadPriority": 0,
+        "Punchline": "Extract materia when you're paying attention.",
+        "Changelog": "API9 update",
+        "AcceptsFeedback": true,
+        "LastUpdate": 1700504849,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip"
     },
     {
         "Author": "Cyenia",
@@ -35,7 +59,7 @@
         "LoadPriority": 0,
         "Punchline": "Names are dumb, use icons instead.",
         "AcceptsFeedback": true,
-        "LastUpdate": 1700504526,
+        "LastUpdate": 1700504849,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/JobIcons2/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/JobIcons2/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/JobIcons2/latest.zip"
@@ -56,7 +80,7 @@
         "Punchline": "A Duty roulette announcer",
         "Changelog": "API 9",
         "AcceptsFeedback": true,
-        "LastUpdate": 1700504526,
+        "LastUpdate": 1700504849,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/DutyAnnouncer/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/DutyAnnouncer/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/DutyAnnouncer/latest.zip"
