@@ -1,0 +1,17 @@
+{
+  "Author": "Cyenia",
+  "Name": "Duty Announcer",
+  "InternalName": "DutyAnnouncer",
+  "AssemblyVersion": "1.0.5.0",
+  "Description": "Announces the name of the loading duty roulette",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Cyeniia/DutyAnnouncer",
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "A Duty roulette announcer",
+  "Changelog": "API 9",
+  "AcceptsFeedback": true
+}
