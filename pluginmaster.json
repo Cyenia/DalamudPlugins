@@ -1,6 +1,27 @@
 [
     {
         "Author": "Cyenia",
+        "Name": "Macro Chaining",
+        "InternalName": "MacroChaining",
+        "AssemblyVersion": "1.0.3.0",
+        "Description": "Run multiple macros one after the another. Even in a loop.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/Cyeniia/MacroChaining",
+        "DalamudApiLevel": 9,
+        "LoadRequiredState": 0,
+        "LoadSync": false,
+        "CanUnloadAsync": false,
+        "LoadPriority": 0,
+        "Punchline": "Run multiple macros one after the another. Even in a loop.",
+        "Changelog": "API9 update",
+        "AcceptsFeedback": true,
+        "LastUpdate": 1700503827,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/MacroChaining/latest.zip",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/MacroChaining/latest.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/MacroChaining/latest.zip"
+    },
+    {
+        "Author": "Cyenia",
         "Name": "Duty Announcer",
         "InternalName": "DutyAnnouncer",
         "AssemblyVersion": "1.0.5.0",
@@ -15,7 +36,7 @@
         "Punchline": "A Duty roulette announcer",
         "Changelog": "API 9",
         "AcceptsFeedback": true,
-        "LastUpdate": 1700502342,
+        "LastUpdate": 1700503827,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/DutyAnnouncer/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/DutyAnnouncer/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/plugins/DutyAnnouncer/latest.zip"
