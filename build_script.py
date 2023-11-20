@@ -9,10 +9,25 @@ branch = sys.argv[2]
 
 new_json = []
 updated = False
+old_file = None
 folder = "plugins"
 new_file = 'new.json'
 repo_file = 'pluginmaster.json'
 raw = f"https://raw.githubusercontent.com/{repo}"
+
+def get_file_data(_file: str):
+    _json_file = open(_file, "r")
+    _file_data = _json_file.read()
+    _json_file.close()
+    return _file_data
+
+if os.path.isfile(repo_file):
+    file_data = get_file_data(repo_file)
+
+    try:
+        old_file = json.loads(file_data)
+    except json.decoder.JSONDecodeError:
+        pass
 
 for name in os.listdir(folder):
     path = os.path.join(folder, name)
@@ -21,9 +36,7 @@ for name in os.listdir(folder):
     file = os.path.join(path, name + ".json" )
     if not os.path.isfile(file): continue
 
-    json_file = open(file, "r")
-    file_data = json_file.read()
-    json_file.close()
+    file_data = get_file_data(file)
     if len(file_data) == 0: continue
 
     try:
@@ -32,6 +45,13 @@ for name in os.listdir(folder):
         continue
 
     json_data["LastUpdate"] = math.floor(os.path.getmtime(file))
+
+    for plugin in old_file:
+        if plugin["Name"] == json_data["Name"]:
+            if plugin["AssemblyVersion"] == json_data["AssemblyVersion"]:
+                json_data["LastUpdate"] = plugin["LastUpdate"]
+            break
+
     download_link = f"{raw}/{branch}/{folder}/{name}/latest.zip"
     json_data["DownloadLinkInstall"] = download_link
     json_data["DownloadLinkTesting"] = download_link
