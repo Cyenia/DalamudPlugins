@@ -1,0 +1,17 @@
+{
+  "Author": "Cyenia",
+  "Name": "Macro Chaining",
+  "InternalName": "MacroChaining",
+  "AssemblyVersion": "1.0.3.0",
+  "Description": "Run multiple macros one after the another. Even in a loop.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Cyeniia/MacroChaining",
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Run multiple macros one after the another. Even in a loop.",
+  "Changelog": "API9 update",
+  "AcceptsFeedback": true
+}
