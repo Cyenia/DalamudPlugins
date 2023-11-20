@@ -11,25 +11,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Restore modified time
-        run: |
-          get_touch_time() {
-            date -d @${unixtime} +'%Y%m%d%H%M.%S'
-          }
-          
-          git ls-tree -r --name-only HEAD	> .git_ls-tree_r_name-only_HEAD
-          
-          git diff --name-only > .git_diff_name-only
-          
-          comm -2 -3 .git_ls-tree_r_name-only_HEAD .git_diff_name-only | while read filename; do
-            unixtime=$(git log -1 --format="%at" -- "${filename}")
-            touchtime=$(get_touch_time)
-            echo ${touchtime} "${filename}"
-            touch -t ${touchtime} "${filename}"
-          done
-          
-          rm .git_ls-tree_r_name-only_HEAD .git_diff_name-only
-
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
