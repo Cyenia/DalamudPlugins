@@ -2,7 +2,7 @@
   "Author": "Cyenia",
   "Name": "JobIcons2",
   "InternalName": "JobIcons2",
-  "AssemblyVersion": "6.5.4.0",
+  "AssemblyVersion": "6.5.8.0",
   "Description": "Names are dumb, use icons instead.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Cyeniia/JobIcons2",
@@ -12,5 +12,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Names are dumb, use icons instead.",
+  "Changelog": ".net 8 Update",
   "AcceptsFeedback": true
 }
