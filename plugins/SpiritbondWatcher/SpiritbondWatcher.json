@@ -2,7 +2,7 @@
   "Author": "Cyenia",
   "Name": "Spiritbond Watcher",
   "InternalName": "SpiritbondWatcher",
-  "AssemblyVersion": "1.1.3.0",
+  "AssemblyVersion": "1.1.4.0",
   "Description": "Tells you when to extract materia when you're actually paying attention.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Cyeniia/SpiritbondWatcher",
@@ -15,6 +15,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Extract materia when you're paying attention.",
-  "Changelog": "API9 update",
+  "Changelog": ".net 8 Update",
   "AcceptsFeedback": true
 }
