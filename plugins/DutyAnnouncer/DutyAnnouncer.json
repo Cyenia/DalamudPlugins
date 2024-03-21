@@ -2,7 +2,7 @@
   "Author": "Cyenia",
   "Name": "Duty Announcer",
   "InternalName": "DutyAnnouncer",
-  "AssemblyVersion": "1.0.5.0",
+  "AssemblyVersion": "1.0.6.0",
   "Description": "Announces the name of the loading duty roulette",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Cyeniia/DutyAnnouncer",
@@ -12,6 +12,6 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A Duty roulette announcer",
-  "Changelog": "API 9",
+  "Changelog": ".net 8 Update",
   "AcceptsFeedback": true
 }
