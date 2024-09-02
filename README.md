@@ -3,7 +3,7 @@ DalamudPlugins is a repo collection for my FFXIV Dalamud plugins.
 
 ## Installation
 ```
-https://raw.githubusercontent.com/Cyeniia/DalamudPlugins/master/pluginmaster.json
+https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/pluginmaster.json
 ```
 1. Copy the link above
 2. Open your Plugin Installer Window and click Settings
