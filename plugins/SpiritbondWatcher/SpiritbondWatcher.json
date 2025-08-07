@@ -2,14 +2,14 @@
   "Author": "Cyenia",
   "Name": "Spiritbond Watcher",
   "InternalName": "SpiritbondWatcher",
-  "AssemblyVersion": "1.7.2.3",
+  "AssemblyVersion": "1.7.3.0",
   "Description": "Tells you when to extract materia when you're actually paying attention.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Cyenia/SpiritbondWatcher",
   "Tags": [
     "Utility"
   ],
-  "DalamudApiLevel": 12,
+  "DalamudApiLevel": 13,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
