@@ -1,6 +1,27 @@
 [
     {
         "Author": "Cyenia",
+        "Name": "JobIcons2",
+        "InternalName": "JobIcons2",
+        "AssemblyVersion": "6.5.8.0",
+        "Description": "Names are dumb, use icons instead.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/Cyeniia/JobIcons2",
+        "DalamudApiLevel": 9,
+        "LoadRequiredState": 0,
+        "LoadSync": false,
+        "CanUnloadAsync": false,
+        "LoadPriority": 0,
+        "Punchline": "Names are dumb, use icons instead.",
+        "Changelog": ".net 8 Update",
+        "AcceptsFeedback": true,
+        "LastUpdate": 1711017469,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/JobIcons2/latest.zip",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/JobIcons2/latest.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/JobIcons2/latest.zip"
+    },
+    {
+        "Author": "Cyenia",
         "Name": "Duty Announcer",
         "InternalName": "DutyAnnouncer",
         "AssemblyVersion": "1.7.2.1",
@@ -19,30 +40,6 @@
         "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/DutyAnnouncer/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/DutyAnnouncer/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/DutyAnnouncer/latest.zip"
-    },
-    {
-        "Author": "Cyenia",
-        "Name": "Spiritbond Watcher",
-        "InternalName": "SpiritbondWatcher",
-        "AssemblyVersion": "1.7.2.3",
-        "Description": "Tells you when to extract materia when you're actually paying attention.",
-        "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/Cyenia/SpiritbondWatcher",
-        "Tags": [
-            "Utility"
-        ],
-        "DalamudApiLevel": 12,
-        "LoadRequiredState": 0,
-        "LoadSync": false,
-        "CanUnloadAsync": false,
-        "LoadPriority": 0,
-        "Punchline": "Extract materia when you're paying attention.",
-        "Changelog": "Fixed link payload",
-        "AcceptsFeedback": true,
-        "LastUpdate": 1744823548,
-        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip",
-        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip",
-        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip"
     },
     {
         "Author": "Cyenia",
@@ -67,23 +64,26 @@
     },
     {
         "Author": "Cyenia",
-        "Name": "JobIcons2",
-        "InternalName": "JobIcons2",
-        "AssemblyVersion": "6.5.8.0",
-        "Description": "Names are dumb, use icons instead.",
+        "Name": "Spiritbond Watcher",
+        "InternalName": "SpiritbondWatcher",
+        "AssemblyVersion": "1.7.3.0",
+        "Description": "Tells you when to extract materia when you're actually paying attention.",
         "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/Cyeniia/JobIcons2",
-        "DalamudApiLevel": 9,
+        "RepoUrl": "https://github.com/Cyenia/SpiritbondWatcher",
+        "Tags": [
+            "Utility"
+        ],
+        "DalamudApiLevel": 13,
         "LoadRequiredState": 0,
         "LoadSync": false,
         "CanUnloadAsync": false,
         "LoadPriority": 0,
-        "Punchline": "Names are dumb, use icons instead.",
-        "Changelog": ".net 8 Update",
+        "Punchline": "Extract materia when you're paying attention.",
+        "Changelog": "Fixed link payload",
         "AcceptsFeedback": true,
-        "LastUpdate": 1711017469,
-        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/JobIcons2/latest.zip",
-        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/JobIcons2/latest.zip",
-        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/JobIcons2/latest.zip"
+        "LastUpdate": 1754599348,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip"
     }
 ]
