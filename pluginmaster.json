@@ -85,5 +85,28 @@
         "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/JobIcons2/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/JobIcons2/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/JobIcons2/latest.zip"
+    },
+    {
+        "Author": "Cyenia",
+        "Name": "Mount Tracker",
+        "InternalName": "MountTracker",
+        "AssemblyVersion": "1.0.0.0",
+        "Description": "Monitor mount collections across your social circle with ease. This plugin lets you track which mounts your friends and/or party members own, helping you coordinate mount farming.",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "tracking",
+            "mounts"
+        ],
+        "DalamudApiLevel": 14,
+        "LoadRequiredState": 0,
+        "LoadSync": false,
+        "CanUnloadAsync": false,
+        "LoadPriority": 0,
+        "Punchline": "Know who rides what.",
+        "AcceptsFeedback": true,
+        "LastUpdate": 1771754530,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/MountTracker/latest.zip",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/MountTracker/latest.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/MountTracker/latest.zip"
     }
 ]
