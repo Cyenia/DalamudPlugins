@@ -1,6 +1,29 @@
 [
     {
         "Author": "Cyenia",
+        "Name": "Mount Tracker",
+        "InternalName": "MountTracker",
+        "AssemblyVersion": "1.0.2.0",
+        "Description": "Monitor mount collections across your social circle with ease. This plugin lets you track which mounts your friends and/or party members own, helping you coordinate mount farming.",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "tracking",
+            "mounts"
+        ],
+        "DalamudApiLevel": 14,
+        "LoadRequiredState": 0,
+        "LoadSync": false,
+        "CanUnloadAsync": false,
+        "LoadPriority": 0,
+        "Punchline": "Know who rides what.",
+        "AcceptsFeedback": true,
+        "LastUpdate": 1773619717,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/MountTracker/latest.zip",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/MountTracker/latest.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/MountTracker/latest.zip"
+    },
+    {
+        "Author": "Cyenia",
         "Name": "Macro Chaining",
         "InternalName": "MacroChaining",
         "AssemblyVersion": "1.7.4.0",
@@ -43,30 +66,6 @@
     },
     {
         "Author": "Cyenia",
-        "Name": "Spiritbond Watcher",
-        "InternalName": "SpiritbondWatcher",
-        "AssemblyVersion": "1.7.4.0",
-        "Description": "Tells you when to extract materia when you're actually paying attention.",
-        "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/Cyenia/SpiritbondWatcher",
-        "Tags": [
-            "Utility"
-        ],
-        "DalamudApiLevel": 14,
-        "LoadRequiredState": 0,
-        "LoadSync": false,
-        "CanUnloadAsync": false,
-        "LoadPriority": 0,
-        "Punchline": "Extract materia when you're paying attention.",
-        "Changelog": "Fixed link payload",
-        "AcceptsFeedback": true,
-        "LastUpdate": 1766156500,
-        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip",
-        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip",
-        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip"
-    },
-    {
-        "Author": "Cyenia",
         "Name": "JobIcons2",
         "InternalName": "JobIcons2",
         "AssemblyVersion": "6.5.8.0",
@@ -88,25 +87,26 @@
     },
     {
         "Author": "Cyenia",
-        "Name": "Mount Tracker",
-        "InternalName": "MountTracker",
-        "AssemblyVersion": "1.0.1.0",
-        "Description": "Monitor mount collections across your social circle with ease. This plugin lets you track which mounts your friends and/or party members own, helping you coordinate mount farming.",
+        "Name": "Spiritbond Watcher",
+        "InternalName": "SpiritbondWatcher",
+        "AssemblyVersion": "1.7.4.0",
+        "Description": "Tells you when to extract materia when you're actually paying attention.",
         "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/Cyenia/SpiritbondWatcher",
         "Tags": [
-            "tracking",
-            "mounts"
+            "Utility"
         ],
         "DalamudApiLevel": 14,
         "LoadRequiredState": 0,
         "LoadSync": false,
         "CanUnloadAsync": false,
         "LoadPriority": 0,
-        "Punchline": "Know who rides what.",
+        "Punchline": "Extract materia when you're paying attention.",
+        "Changelog": "Fixed link payload",
         "AcceptsFeedback": true,
-        "LastUpdate": 1771791690,
-        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/MountTracker/latest.zip",
-        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/MountTracker/latest.zip",
-        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/MountTracker/latest.zip"
+        "LastUpdate": 1766156500,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/Cyenia/DalamudPlugins/master/plugins/SpiritbondWatcher/latest.zip"
     }
 ]
